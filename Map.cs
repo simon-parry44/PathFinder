@@ -18,8 +18,8 @@ namespace PathFinder
             {
                 for (var x = 0; x < mapSize.X; x++)
                 {
-                    var isMountain = random.NextDouble() < 0.1; // create a random terrain, increase value for more terrain
-                    map.Add(new Node(new Coordinate { X = x, Y = y }, isMountain));
+                    var isTerrain = random.NextDouble() < 0.1; // create a random terrain, increase value for more terrain
+                    map.Add(new Node(new Coordinate { X = x, Y = y }, isTerrain));
                 }
             }
 
