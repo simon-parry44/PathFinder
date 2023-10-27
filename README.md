@@ -19,4 +19,4 @@ C:\PathFinder\PathFinder.exe 64,64,0,0,34,35
 
 ## Results
 
-![image info](./results.png)
+![image info](results.png)
