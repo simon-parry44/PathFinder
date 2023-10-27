@@ -18,7 +18,7 @@ namespace PathFinder
             {
                 for (var x = 0; x < mapSize.X; x++)
                 {
-                    var isMountain = random.NextDouble() < 0.1; // create a random mountain, increase value for more mountains
+                    var isMountain = random.NextDouble() < 0.1; // create a random terrain, increase value for more terrain
                     map.Add(new Node(new Coordinate { X = x, Y = y }, isMountain));
                 }
             }
@@ -28,6 +28,7 @@ namespace PathFinder
 
         public static List<Node> FindShortestPath(List<Node> map, Coordinate startPosition, Coordinate endPosition)
         {
+            // find index of the start and end points
             int startIndex = map.FindIndex(a => a.X == startPosition.X && a.Y == startPosition.Y);
             int endIndex = map.FindIndex(a => a.X == endPosition.X && a.Y == endPosition.Y);
 
