@@ -1,0 +1,81 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Project output directories
+[Bb]in/
+[Dd]ebug/
+obj/
+[Rr]elease/
+[Aa]rtifacts/
+*.wget-output
+*.InstallLog
+[Pp]ackages/
+[Nn]ode_modules/
+[Bb]ower_components/
+
+#Grunt temp
+.tmp/
+
+# ReSharper
+_ReSharper*/
+*.ReSharper
+
+#StyleCop
+StyleCop.Cache
+
+# MsTest
+[Tt]est[Rr]esult*
+
+# Visual Studio
+.vs/
+output
+PrecompiledWeb
+_UpgradeReport_Files
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.ncb
+*.suo
+*.user
+*.nlb
+*.aps
+*.clw
+*.pdb
+
+# TestLint
+lint.db
+
+
+# dotCover
+coverage.xml
+*.dotCover
+
+eSpares.WebSite/Bundles/*.css
+eSpares.WebSite/Bundles/*.js
+
+
+# General Windows
+*.bak
+[Tt]humbs.db
+glob:*.orig
+
+# General Mac OS X
+._*
+.DS_Store
+
+# Don't check in certificates!
+*.cer
+*.pvk
+*.spc
+*.pfx
+
+# Kiln shelve rejection files
+*.rej
+
+# General files to ignore
+TestResults.xml
+npm-debug.log
+*.csproj.user
+UpgradeLog.htm
+package-lock.json
+/eSpares.WebSite/.bowerrc
