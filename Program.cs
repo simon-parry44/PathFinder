@@ -33,7 +33,7 @@ namespace PathFinder
         
         private static void ReadParameterArguments(string[] args)
         {
-            if (args.Length == 5)
+            if (args.Length == 6)
             {
                 MapSize.X = Convert.ToInt32(args[0]);
                 MapSize.Y = Convert.ToInt32(args[1]);
