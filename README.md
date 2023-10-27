@@ -1,7 +1,7 @@
 # PathFinder
 ## .Net C# A* Implementation
 
-Find the shortest path between two points
+Console application to find the shortest path between two points.
 
 ## Running the application
 
@@ -19,4 +19,4 @@ C:\PathFinder\PathFinder.exe 64,64,0,0,34,35
 
 ## Results
 
-![image info](././results.png)
+![image info](https://github.com/simon-parry44/PathFinder/blob/main/results.PNG)
